@@ -11,7 +11,7 @@ MAX_TICKET_NUMBER_DIGITS = 4
 
 def parse_env_variables():
     token = os.path.expanduser(os.getenv('api_key', ''))
-    ticket_prefix = os.path.expanduser(os.getenv('ticket_prefix', ''))
+    ticket_prefix = os.path.expanduser(os.getenv('team_key', ''))
     return token, ticket_prefix
 
 
