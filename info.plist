@@ -81,7 +81,7 @@
 				<key>runningsubtext</key>
 				<string>fetching api...</string>
 				<key>script</key>
-				<string>~/.python_venv/python3/bin/python3 ./python/src/ticket_search.py $@
+				<string>~/.python_venv/python3/bin/python3 ./python/ticket_search.py $@
 </string>
 				<key>scriptargtype</key>
 				<integer>1</integer>
@@ -111,16 +111,16 @@
 		<key>26CC8CD8-9DC3-47A1-ACE4-4D45F27B82C8</key>
 		<dict>
 			<key>xpos</key>
-			<real>165</real>
+			<real>95</real>
 			<key>ypos</key>
-			<real>245</real>
+			<real>35</real>
 		</dict>
 		<key>CE3F55E7-1730-4714-9051-82EDDA7FEC8A</key>
 		<dict>
 			<key>xpos</key>
-			<real>570</real>
+			<real>325</real>
 			<key>ypos</key>
-			<real>230</real>
+			<real>35</real>
 		</dict>
 	</dict>
 	<key>userconfigurationconfig</key>

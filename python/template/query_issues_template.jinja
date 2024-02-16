@@ -1,0 +1,32 @@
+query Issues {
+        issues(orderBy: updatedAt filter: {
+            and: [
+                {
+                    team: {
+                        key: {
+                            eq: "{{TEAM_KEY}}"
+                        }
+                    }
+                },
+                {
+                    or: [
+                        {{AND_FILTER_CLAUSE}}
+                    ]
+                },
+            ]
+        }) {
+            nodes {
+                title
+                identifier
+                url
+                number
+                priorityLabel
+                state {
+                    name
+                }
+                project {
+                    name
+                }
+            }
+        }
+    }
